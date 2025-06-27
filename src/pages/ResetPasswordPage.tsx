@@ -51,9 +51,9 @@ const ResetPasswordPage: React.FC = () => {
   }
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-background">
       <Header />
-      <main className="flex-grow flex items-center justify-center p-4 bg-gray-50">
+      <main className="flex-grow flex items-center justify-center p-4">
         <AuthFormWrapper
           title="Reset Your Password"
           description="Enter your new password below. Make sure it's secure."
